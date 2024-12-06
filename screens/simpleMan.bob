@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-09-09 01:23:19 by eicuser-->
+<display version="2.0.0">
+  <name>simpleMan $(ADO) $(PPM)</name>
+  <macros>
+    <ADO>simple.eic:</ADO>
+    <PPM>1</PPM>
+  </macros>
+  <widget type="group" version="3.0.0">
+    <name>PPM Macro</name>
+    <y>30</y>
+    <width>760</width>
+    <height>140</height>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_3</name>
+      <x>102</x>
+      <y>32</y>
+      <width>210</width>
+      <height>1</height>
+      <points>
+        <point x="210.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <pv_name>pva://$(ADO)shortS$(PPM)</pv_name>
+      <x>162</x>
+      <y>12</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry</name>
+      <pv_name>pva://$(ADO)shortS$(PPM)</pv_name>
+      <x>72</x>
+      <y>12</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM></PPM>
+          </macros>
+          <target>replace</target>
+          <description>Clear</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#0</PPM>
+          </macros>
+          <target>replace</target>
+          <description>0</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#1</PPM>
+          </macros>
+          <target>replace</target>
+          <description>1</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#2</PPM>
+          </macros>
+          <target>replace</target>
+          <description>2</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#3</PPM>
+          </macros>
+          <target>replace</target>
+          <description>3</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#4</PPM>
+          </macros>
+          <target>replace</target>
+          <description>4</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#5</PPM>
+          </macros>
+          <target>replace</target>
+          <description>5</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#6</PPM>
+          </macros>
+          <target>replace</target>
+          <description>6</description>
+        </action>
+        <action type="open_display">
+          <file>simpleMan.bob</file>
+          <macros>
+            <PPM>#7</PPM>
+          </macros>
+          <target>replace</target>
+          <description>7</description>
+        </action>
+      </actions>
+      <text>PPM $(PPM)</text>
+      <x>262</x>
+      <y>12</y>
+      <width>90</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_2</name>
+      <text>shortS</text>
+      <x>2</x>
+      <y>12</y>
+      <width>60</width>
+      <height>90</height>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_1</name>
+      <pv_name>pva://$(ADO)shortS#0</pv_name>
+      <x>72</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_2</name>
+      <pv_name>pva://$(ADO)shortS#1</pv_name>
+      <x>152</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_3</name>
+      <pv_name>pva://$(ADO)shortS#2</pv_name>
+      <x>232</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_4</name>
+      <pv_name>pva://$(ADO)shortS#3</pv_name>
+      <x>312</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_5</name>
+      <pv_name>pva://$(ADO)shortS#4</pv_name>
+      <x>392</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_6</name>
+      <pv_name>pva://$(ADO)shortS#5</pv_name>
+      <x>472</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_7</name>
+      <pv_name>pva://$(ADO)shortS#6</pv_name>
+      <x>552</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_8</name>
+      <pv_name>pva://$(ADO)shortS#7</pv_name>
+      <x>632</x>
+      <y>72</y>
+      <width>70</width>
+      <height>30</height>
+    </widget>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>Choice Button</name>
+    <pv_name>pva://$(ADO)menuS</pv_name>
+    <x>260</x>
+    <y>190</y>
+    <width>170</width>
+    <height>30</height>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>pva://$(ADO)menuS</pv_name>
+    <x>170</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_9</name>
+    <pv_name>pva://$(ADO)menuS</pv_name>
+    <x>90</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>menuS</text>
+    <x>20</x>
+    <y>190</y>
+    <width>60</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>stringS</text>
+    <x>20</x>
+    <y>290</y>
+    <width>60</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_10</name>
+    <pv_name>pva://$(ADO)stringS</pv_name>
+    <x>90</x>
+    <y>290</y>
+    <width>330</width>
+    <height>30</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>pva://$(ADO)degM</pv_name>
+    <x>90</x>
+    <y>350</y>
+    <width>70</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>degM</text>
+    <x>20</x>
+    <y>350</y>
+    <width>60</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>pva://$(ADO)degM:desc</pv_name>
+    <x>180</x>
+    <y>340</y>
+    <width>350</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>pva://$(ADO)degM/display/description</pv_name>
+    <x>180</x>
+    <y>360</y>
+    <width>350</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>ADO: $(ADO)  PPM: $(PPM)</text>
+    <x>20</x>
+    <width>310</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>Choice Button_1</name>
+    <pv_name>pva://$(ADO)hexAddrS</pv_name>
+    <x>260</x>
+    <y>230</y>
+    <width>170</width>
+    <height>30</height>
+    <items>
+      <item>Item 1</item>
+      <item>Item 2</item>
+    </items>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>pva://$(ADO)hexAddrS</pv_name>
+    <x>170</x>
+    <y>230</y>
+    <width>70</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_11</name>
+    <pv_name>pva://$(ADO)hexAddrS</pv_name>
+    <x>90</x>
+    <y>230</y>
+    <width>70</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>hexAddrS</text>
+    <x>20</x>
+    <y>230</y>
+    <width>60</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+        <description>Write zero</description>
+      </action>
+    </actions>
+    <pv_name>pva://$(ADO)commandC</pv_name>
+    <text>command C $(actions)</text>
+    <x>590</x>
+    <y>190</y>
+    <width>170</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>commandC</text>
+    <x>480</x>
+    <y>190</y>
+    <width>80</width>
+    <height>30</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="xyplot" version="3.0.0">
+    <name>X/Y Plot</name>
+    <x>540</x>
+    <y>280</y>
+    <width>260</width>
+    <height>170</height>
+    <x_axis>
+      <title>X</title>
+      <autoscale>true</autoscale>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <maximum>100.0</maximum>
+      <show_grid>false</show_grid>
+      <title_font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </title_font>
+      <scale_font>
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0">
+        </font>
+      </scale_font>
+      <visible>true</visible>
+    </x_axis>
+    <y_axes>
+      <y_axis>
+        <title>Y</title>
+        <autoscale>true</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>100.0</maximum>
+        <show_grid>false</show_grid>
+        <title_font>
+          <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+          </font>
+        </title_font>
+        <scale_font>
+          <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0">
+          </font>
+        </scale_font>
+        <on_right>false</on_right>
+        <visible>true</visible>
+        <color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </color>
+      </y_axis>
+    </y_axes>
+    <traces>
+      <trace>
+        <name>$(traces[0].y_pv)</name>
+        <x_pv></x_pv>
+        <y_pv>pva://$(ADO)doubleArrayS</y_pv>
+        <err_pv></err_pv>
+        <axis>0</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="0" green="0" blue="255">
+          </color>
+        </color>
+        <line_width>1</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+    </traces>
+  </widget>
+</display>
