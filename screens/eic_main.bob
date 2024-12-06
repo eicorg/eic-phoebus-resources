@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-12-06 15:53:31 by shroffk-->
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>The Electron-Ion Collider</text>
+    <width>800</width>
+    <height>50</height>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>ADO SRV Examples</name>
+    <x>10</x>
+    <y>50</y>
+    <width>200</width>
+    <height>180</height>
+    <style>1</style>
+    <line_color>
+      <color red="102" green="128" blue="230">
+      </color>
+    </line_color>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="open_display">
+          <description>Open SimpleMan Display</description>
+          <file>simpleMan.bob</file>
+          <target>tab</target>
+        </action>
+      </actions>
+      <x>9</x>
+      <y>11</y>
+      <width>170</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>ADO EPICS Bridge Examples</name>
+    <x>230</x>
+    <y>50</y>
+    <width>200</width>
+    <height>180</height>
+    <style>1</style>
+    <line_color>
+      <color red="77" green="102" blue="204">
+      </color>
+    </line_color>
+  </widget>
+</display>
