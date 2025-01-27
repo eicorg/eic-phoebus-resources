@@ -1,0 +1,10 @@
+// Default Fonts. Do not change!
+Default = Liberation Sans-regular-14
+Default Bold = Liberation Sans-bold-14
+Fine Print = Liberation Sans-regular-14
+Header 1 = Liberation Sans-bold-22
+Header 2 = Liberation Sans-bold-18
+Header 1 = Liberation Sans-bold-16
+Comment = Liberation Sans-italic-14
+
+// Custom fonts
