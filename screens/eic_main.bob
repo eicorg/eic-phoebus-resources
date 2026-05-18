@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-12-06 15:53:31 by shroffk-->
 <display version="2.0.0">
   <name>Display</name>
   <widget type="label" version="2.0.0">
@@ -50,5 +49,73 @@
       <color red="77" green="102" blue="204">
       </color>
     </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>H coating</name>
+    <x>10</x>
+    <y>250</y>
+    <width>420</width>
+    <height>180</height>
+    <style>1</style>
+    <line_color>
+      <color red="77" green="102" blue="204">
+      </color>
+    </line_color>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <actions>
+        <action type="open_display">
+          <description>Open HCoating</description>
+          <file>hcoating_OPI/HCoating_1.bob</file>
+          <target>tab</target>
+        </action>
+      </actions>
+      <x>9</x>
+      <y>11</y>
+      <width>170</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_2</name>
+      <actions>
+        <action type="open_display">
+          <description>Open MaxIMPS</description>
+          <file>hcoating_OPI/maximps.bob</file>
+          <target>tab</target>
+        </action>
+        <action type="open_display">
+          <description>Open MaxIMPS 2</description>
+          <file>hcoating_OPI/maximps2.bob</file>
+          <target>tab</target>
+        </action>
+      </actions>
+      <text>MaxIMPS</text>
+      <x>9</x>
+      <y>51</y>
+      <width>170</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_3</name>
+      <actions>
+        <action type="open_file">
+          <description>Coating_Chart</description>
+          <file>hcoating_OPI/Coatingplot.plt</file>
+        </action>
+        <action type="open_file">
+          <description>BakingTemp_Chart</description>
+          <file>hcoating_OPI/BakingTemp_Chart.plt</file>
+        </action>
+        <action type="open_file">
+          <description>BzoneOutputLevel_Chart</description>
+          <file>hcoating_OPI/BzoneOutputLevel.plt</file>
+        </action>
+      </actions>
+      <text>Plots</text>
+      <x>229</x>
+      <y>11</y>
+      <width>170</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
   </widget>
 </display>

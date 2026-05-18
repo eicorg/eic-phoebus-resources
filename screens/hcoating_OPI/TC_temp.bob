@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-12-12 10:25:44 by sxin-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>200</width>
+  <height>350</height>
+  <background_color>
+    <color red="204" green="255" blue="255">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <macros>
+      <SysDev>905_HC_TC01:</SysDev>
+    </macros>
+    <width>200</width>
+    <height>350</height>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Chamber Spare TCs</text>
+    <width>153</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>C1 TC</text>
+    <x>4</x>
+    <y>310</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>A7 TC</text>
+    <x>4</x>
+    <y>30</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>A8 TC</text>
+    <x>4</x>
+    <y>70</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>B1 TC</text>
+    <x>4</x>
+    <y>110</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>B3 TC</text>
+    <x>4</x>
+    <y>150</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>B4 TC</text>
+    <x>4</x>
+    <y>190</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>B6 TC</text>
+    <x>4</x>
+    <y>230</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>B8 TC</text>
+    <x>4</x>
+    <y>270</y>
+    <width>60</width>
+    <height>30</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <macros>
+      <SysDev>905_HC1_TC:</SysDev>
+    </macros>
+    <x>82</x>
+    <y>28</y>
+    <width>82</width>
+    <height>310</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="group" version="3.0.0">
+      <name>Group</name>
+      <macros>
+        <SysDev>905_HC1CTC:</SysDev>
+      </macros>
+      <width>80</width>
+      <height>310</height>
+      <style>3</style>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_2</name>
+      <pv_name>$(SysDev)T1_real</pv_name>
+      <x>2</x>
+      <y>40</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>$(SysDev)T2_real</pv_name>
+      <x>2</x>
+      <y>80</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_4</name>
+      <pv_name>$(SysDev)T3_real</pv_name>
+      <x>2</x>
+      <y>120</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(SysDev)T4_real</pv_name>
+      <x>2</x>
+      <y>160</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_6</name>
+      <pv_name>$(SysDev)T5_real</pv_name>
+      <x>2</x>
+      <y>200</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_7</name>
+      <pv_name>$(SysDev)T6_real</pv_name>
+      <x>2</x>
+      <y>240</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_10</name>
+      <pv_name>$(SysDev)T7_real</pv_name>
+      <x>2</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_1</name>
+      <pv_name>$(SysDev)T0_real</pv_name>
+      <x>1</x>
+      <width>80</width>
+      <height>30</height>
+      <precision>1</precision>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>

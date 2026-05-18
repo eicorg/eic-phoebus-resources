@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-11-10 10:09:47 by sxin-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>507</width>
+  <height>309</height>
+  <widget type="group" version="3.0.0">
+    <name>Televac1</name>
+    <macros>
+      <Sys>905-HC1-</Sys>
+      <Dev>Televac1:</Dev>
+    </macros>
+    <width>506</width>
+    <height>308</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_10</name>
+      <width>506</width>
+      <height>308</height>
+      <line_color>
+        <color name="Text" red="0" green="0" blue="0">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH1 Readings (TCG)</name>
+      <x>3</x>
+      <y>36</y>
+      <width>249</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="label" version="2.0.0">
+        <name>Label_54</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>7</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_55</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>37</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_10</name>
+        <pv_name>$(Sys)$(Dev)Ch1_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_14</name>
+        <pv_name>$(Sys)$(Dev)Ch1_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH2 Readings (TCG)</name>
+      <x>254</x>
+      <y>36</y>
+      <width>250</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_15</name>
+        <pv_name>$(Sys)$(Dev)Ch2_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_16</name>
+        <pv_name>$(Sys)$(Dev)Ch2_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_58</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>8</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_59</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>38</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH3 Readings (TCG)</name>
+      <x>3</x>
+      <y>126</y>
+      <width>249</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="label" version="2.0.0">
+        <name>Label_60</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>7</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_61</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>37</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_17</name>
+        <pv_name>$(Sys)$(Dev)Ch3_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_18</name>
+        <pv_name>$(Sys)$(Dev)Ch3_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH4 Readings (TCG)</name>
+      <x>254</x>
+      <y>126</y>
+      <width>249</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_19</name>
+        <pv_name>$(Sys)$(Dev)Ch4_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_20</name>
+        <pv_name>$(Sys)$(Dev)Ch4_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_62</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>8</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_63</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>38</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH5 Readings (CCG)</name>
+      <x>3</x>
+      <y>216</y>
+      <width>249</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="label" version="2.0.0">
+        <name>Label_64</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>7</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_65</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>37</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_21</name>
+        <pv_name>$(Sys)$(Dev)Ch5_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_22</name>
+        <pv_name>$(Sys)$(Dev)Ch5_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>CH7 Readings (CCG)</name>
+      <x>254</x>
+      <y>216</y>
+      <width>249</width>
+      <height>89</height>
+      <style>1</style>
+      <font>
+        <font family="Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="LabelBG" red="65" green="105" blue="225">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="TabBG" red="224" green="255" blue="255">
+        </color>
+      </background_color>
+      <actions>
+      </actions>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_23</name>
+        <pv_name>$(Sys)$(Dev)Ch7_Reading</pv_name>
+        <x>121</x>
+        <y>6</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <format>2</format>
+        <precision>1</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <rules>
+          <rule name="Rule" prop_id="pv_value" out_exp="true">
+            <exp bool_exp="pv0!=0">
+              <expression>0</expression>
+            </exp>
+            <pv_name>$(Sys)$(Dev)P-Sts</pv_name>
+          </rule>
+        </rules>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_24</name>
+        <pv_name>$(Sys)$(Dev)Ch7_message</pv_name>
+        <x>121</x>
+        <y>36</y>
+        <width>123</width>
+        <height>23</height>
+        <font>
+          <font name="LSlabel_M" family="Sans" style="BOLD" size="12.0">
+          </font>
+        </font>
+        <background_color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <show_units>false</show_units>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+        <wrap_words>false</wrap_words>
+        <actions>
+        </actions>
+        <border_width>1</border_width>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_66</name>
+        <text>Pressure(Torr)</text>
+        <x>2</x>
+        <y>8</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_67</name>
+        <text>Status</text>
+        <x>2</x>
+        <y>38</y>
+        <width>120</width>
+        <font>
+          <font family="Sans" style="BOLD" size="14.0">
+          </font>
+        </font>
+        <vertical_alignment>1</vertical_alignment>
+        <actions>
+        </actions>
+        <border_color>
+          <color red="0" green="128" blue="255">
+          </color>
+        </border_color>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_68</name>
+      <text>Televac Controller 1 Readings</text>
+      <x>11</x>
+      <y>5</y>
+      <width>260</width>
+      <height>25</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="18.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+</display>

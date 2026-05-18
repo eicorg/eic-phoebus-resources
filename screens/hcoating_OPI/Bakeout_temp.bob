@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2026-04-27 17:09:34 by sxin-->
+<display version="2.0.0">
+  <name>Bakeout</name>
+  <width>1350</width>
+  <height>950</height>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>Hcoating chamber/Hcoating chamber.png</file>
+    <width>1350</width>
+    <height>600</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_86</name>
+    <text>TGM1</text>
+    <x>254</x>
+    <y>590</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_87</name>
+    <text>TGM2</text>
+    <x>254</x>
+    <y>630</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_88</name>
+    <text>TGM4</text>
+    <x>254</x>
+    <y>711</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_89</name>
+    <text>TGM3</text>
+    <x>254</x>
+    <y>671</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_90</name>
+    <text>TGM7</text>
+    <x>254</x>
+    <y>834</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_91</name>
+    <text>TGM8</text>
+    <x>254</x>
+    <y>880</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_92</name>
+    <text>TGM6</text>
+    <x>254</x>
+    <y>793</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_93</name>
+    <text>TGM5</text>
+    <x>254</x>
+    <y>753</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_15</name>
+    <x>239</x>
+    <y>560</y>
+    <width>177</width>
+    <height>350</height>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <macros>
+      <SysDev>905_TGM2:</SysDev>
+    </macros>
+    <x>312</x>
+    <y>589</y>
+    <width>80</width>
+    <height>310</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_43</name>
+      <pv_name>$(SysDev)TGM2_real</pv_name>
+      <y>41</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_44</name>
+      <pv_name>$(SysDev)TGM1_real</pv_name>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_45</name>
+      <pv_name>$(SysDev)TGM3_real</pv_name>
+      <y>82</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_46</name>
+      <pv_name>$(SysDev)TGM4_real</pv_name>
+      <y>123</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_47</name>
+      <pv_name>$(SysDev)TGM5_real</pv_name>
+      <y>164</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_48</name>
+      <pv_name>$(SysDev)TGM6_real</pv_name>
+      <y>205</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_49</name>
+      <pv_name>$(SysDev)TGM7_real</pv_name>
+      <y>246</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_50</name>
+      <pv_name>$(SysDev)TGM8_real</pv_name>
+      <y>290</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_94</name>
+    <text>Zone B TC Readings</text>
+    <x>246</x>
+    <y>561</y>
+    <width>193</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>TGM1</text>
+    <x>63</x>
+    <y>589</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_96</name>
+    <text>TGM2</text>
+    <x>63</x>
+    <y>629</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_97</name>
+    <text>TGM4</text>
+    <x>63</x>
+    <y>710</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_98</name>
+    <text>TGM3</text>
+    <x>63</x>
+    <y>670</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_99</name>
+    <text>TGM7</text>
+    <x>63</x>
+    <y>833</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_100</name>
+    <text>TGM8</text>
+    <x>63</x>
+    <y>879</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_101</name>
+    <text>TGM6</text>
+    <x>63</x>
+    <y>792</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_17</name>
+    <x>428</x>
+    <y>560</y>
+    <width>177</width>
+    <height>350</height>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_102</name>
+    <text>TGM5</text>
+    <x>63</x>
+    <y>752</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_16</name>
+    <x>50</x>
+    <y>561</y>
+    <width>177</width>
+    <height>350</height>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_6</name>
+    <macros>
+      <SysDev>905_TGM1:</SysDev>
+    </macros>
+    <x>121</x>
+    <y>588</y>
+    <width>80</width>
+    <height>310</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_51</name>
+      <pv_name>$(SysDev)TGM2_real</pv_name>
+      <y>41</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_52</name>
+      <pv_name>$(SysDev)TGM1_real</pv_name>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_53</name>
+      <pv_name>$(SysDev)TGM3_real</pv_name>
+      <y>82</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_54</name>
+      <pv_name>$(SysDev)TGM4_real</pv_name>
+      <y>123</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_55</name>
+      <pv_name>$(SysDev)TGM5_real</pv_name>
+      <y>164</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_56</name>
+      <pv_name>$(SysDev)TGM6_real</pv_name>
+      <y>205</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_57</name>
+      <pv_name>$(SysDev)TGM7_real</pv_name>
+      <y>246</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_58</name>
+      <pv_name>$(SysDev)TGM8_real</pv_name>
+      <y>290</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_103</name>
+    <text>Zone A TC Readings</text>
+    <x>54</x>
+    <y>562</y>
+    <width>193</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_104</name>
+    <text>Zone C TC Readings</text>
+    <x>434</x>
+    <y>561</y>
+    <width>193</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_18</name>
+    <x>668</x>
+    <y>498</y>
+    <width>49</width>
+    <height>33</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_106</name>
+    <text>B5</text>
+    <x>666</x>
+    <y>500</y>
+    <width>49</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="20.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>TGM1Group</name>
+    <macros>
+      <SysDev>905_TGM1:</SysDev>
+    </macros>
+    <x>961</x>
+    <y>75</y>
+    <width>433</width>
+    <height>370</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_66</name>
+      <pv_name>$(SysDev)TGM8_real</pv_name>
+      <x>100</x>
+      <y>349</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_65</name>
+      <pv_name>$(SysDev)TGM7_real</pv_name>
+      <x>215</x>
+      <y>349</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_60</name>
+      <pv_name>$(SysDev)TGM2_real</pv_name>
+      <x>349</x>
+      <y>282</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_63</name>
+      <pv_name>$(SysDev)TGM5_real</pv_name>
+      <x>353</x>
+      <y>226</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_62</name>
+      <pv_name>$(SysDev)TGM4_real</pv_name>
+      <x>349</x>
+      <y>80</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_59</name>
+      <pv_name>$(SysDev)TGM1_real</pv_name>
+      <x>349</x>
+      <y>41</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_61</name>
+      <pv_name>$(SysDev)TGM3_real</pv_name>
+      <y>1</y>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_64</name>
+      <pv_name>$(SysDev)TGM6_real</pv_name>
+      <x>351</x>
+      <width>80</width>
+      <background_color>
+        <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+        </color>
+      </background_color>
+      <precision>1</precision>
+    </widget>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_19</name>
+    <pv_name>905-HC1-TGM1:Asyn.CNCT</pv_name>
+    <x>78</x>
+    <y>929</y>
+    <width>100</width>
+    <height>42</height>
+    <off_label>TC Disconnected</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>TC Connected</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_62</name>
+    <text>TGM2</text>
+    <x>443</x>
+    <y>630</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_63</name>
+    <text>TGM4</text>
+    <x>443</x>
+    <y>711</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_64</name>
+    <text>TGM3</text>
+    <x>443</x>
+    <y>671</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_65</name>
+    <text>TGM7</text>
+    <x>443</x>
+    <y>834</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_66</name>
+    <text>TGM8</text>
+    <x>443</x>
+    <y>880</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_67</name>
+    <text>TGM6</text>
+    <x>443</x>
+    <y>793</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_68</name>
+    <text>TGM5</text>
+    <x>443</x>
+    <y>753</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <macros>
+      <SysDev>905_TGM3:</SysDev>
+    </macros>
+    <x>501</x>
+    <y>589</y>
+    <width>80</width>
+    <height>310</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_13</name>
+      <pv_name>$(SysDev)TGM2_real</pv_name>
+      <y>41</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_14</name>
+      <pv_name>$(SysDev)TGM1_real</pv_name>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_15</name>
+      <pv_name>$(SysDev)TGM3_real</pv_name>
+      <y>82</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_16</name>
+      <pv_name>$(SysDev)TGM4_real</pv_name>
+      <y>123</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_17</name>
+      <pv_name>$(SysDev)TGM5_real</pv_name>
+      <y>164</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_18</name>
+      <pv_name>$(SysDev)TGM6_real</pv_name>
+      <y>205</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_19</name>
+      <pv_name>$(SysDev)TGM7_real</pv_name>
+      <y>246</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_20</name>
+      <pv_name>$(SysDev)TGM8_real</pv_name>
+      <y>290</y>
+      <width>80</width>
+      <precision>1</precision>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_105</name>
+    <text>TGM1</text>
+    <x>443</x>
+    <y>590</y>
+    <width>52</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_70</name>
+    <pv_name>905_TGM2:TGM5_real</pv_name>
+    <x>672</x>
+    <y>530</y>
+    <width>80</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_20</name>
+    <pv_name>905-HC1-TGM2:Asyn.CNCT</pv_name>
+    <x>268</x>
+    <y>929</y>
+    <width>100</width>
+    <height>42</height>
+    <off_label>TC Disconnected</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>TC Connected</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_21</name>
+    <pv_name>905-HC1-TGM3:Asyn.CNCT</pv_name>
+    <x>468</x>
+    <y>929</y>
+    <width>100</width>
+    <height>42</height>
+    <off_label>TC Disconnected</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>TC Connected</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>TGM3</name>
+    <macros>
+      <SysDev>905_TGM3:</SysDev>
+    </macros>
+    <x>20</x>
+    <y>155</y>
+    <width>495</width>
+    <height>375</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_80</name>
+      <pv_name>$(SysDev)TGM6_real</pv_name>
+      <x>170</x>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_82</name>
+      <pv_name>$(SysDev)TGM8_real</pv_name>
+      <x>20</x>
+      <y>55</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_79</name>
+      <pv_name>$(SysDev)TGM5_real</pv_name>
+      <x>415</x>
+      <y>126</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_77</name>
+      <pv_name>$(SysDev)TGM3_real</pv_name>
+      <x>415</x>
+      <y>180</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_81</name>
+      <pv_name>$(SysDev)TGM7_real</pv_name>
+      <x>9</x>
+      <y>201</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_78</name>
+      <pv_name>$(SysDev)TGM4_real</pv_name>
+      <x>415</x>
+      <y>222</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_75</name>
+      <pv_name>$(SysDev)TGM1_real</pv_name>
+      <x>247</x>
+      <y>269</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_76</name>
+      <pv_name>$(SysDev)TGM2_real</pv_name>
+      <x>130</x>
+      <y>268</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_92</name>
+      <pv_name>905_TGM2:TGM8_real</pv_name>
+      <x>349</x>
+      <y>269</y>
+      <width>80</width>
+      <transparent>true</transparent>
+      <precision>1</precision>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>SPARE</text>
+      <x>30</x>
+      <y>35</y>
+      <width>60</width>
+      <height>27</height>
+      <foreground_color>
+        <color name="MAJOR" red="255" green="0" blue="0">
+        </color>
+      </foreground_color>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_83</name>
+    <pv_name>905_TGM2:TGM1_real</pv_name>
+    <x>960</x>
+    <y>425</y>
+    <width>80</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_84</name>
+    <pv_name>905_TGM2:TGM2_real</pv_name>
+    <x>874</x>
+    <y>424</y>
+    <width>66</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_85</name>
+    <pv_name>905_TGM2:TGM3_real</pv_name>
+    <x>770</x>
+    <y>426</y>
+    <width>80</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_86</name>
+    <pv_name>905_TGM2:TGM4_real</pv_name>
+    <x>660</x>
+    <y>426</y>
+    <width>80</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_87</name>
+    <pv_name>905_TGM2:TGM6_real</pv_name>
+    <x>546</x>
+    <y>425</y>
+    <width>80</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_88</name>
+    <pv_name>905_TGM2:TGM7_real</pv_name>
+    <x>467</x>
+    <y>425</y>
+    <width>66</width>
+    <transparent>true</transparent>
+    <precision>1</precision>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser</name>
+    <file>BakingTemp_Chart.plt</file>
+    <x>627</x>
+    <y>561</y>
+    <width>767</width>
+    <height>410</height>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>OutputlevelGroup</name>
+    <macros>
+      <SysDev>905_TGM2:</SysDev>
+    </macros>
+    <x>1410</x>
+    <y>581</y>
+    <width>201</width>
+    <height>350</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_107</name>
+      <text>TGM1</text>
+      <x>15</x>
+      <y>30</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_108</name>
+      <text>TGM2</text>
+      <x>15</x>
+      <y>70</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_109</name>
+      <text>TGM4</text>
+      <x>15</x>
+      <y>151</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_110</name>
+      <text>TGM3</text>
+      <x>15</x>
+      <y>111</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_111</name>
+      <text>TGM7</text>
+      <x>15</x>
+      <y>274</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_112</name>
+      <text>TGM8</text>
+      <x>15</x>
+      <y>320</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_113</name>
+      <text>TGM6</text>
+      <x>15</x>
+      <y>233</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_114</name>
+      <text>TGM5</text>
+      <x>15</x>
+      <y>193</y>
+      <width>52</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_19</name>
+      <width>177</width>
+      <height>350</height>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <transparent>true</transparent>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_7</name>
+      <macros>
+        <SysDev>905_TGM2:</SysDev>
+      </macros>
+      <x>73</x>
+      <y>29</y>
+      <width>80</width>
+      <height>310</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_67</name>
+        <pv_name>$(SysDev)TGM2_Out1real</pv_name>
+        <y>41</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_68</name>
+        <pv_name>$(SysDev)TGM1_Out1real</pv_name>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_69</name>
+        <pv_name>$(SysDev)TGM3_Out1real</pv_name>
+        <y>82</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_71</name>
+        <pv_name>$(SysDev)TGM4_Out1real</pv_name>
+        <y>123</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_72</name>
+        <pv_name>$(SysDev)TGM5_Out1real</pv_name>
+        <y>164</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_73</name>
+        <pv_name>$(SysDev)TGM6_Out1real</pv_name>
+        <y>205</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_74</name>
+        <pv_name>$(SysDev)TGM7_Out1real</pv_name>
+        <y>246</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update_89</name>
+        <pv_name>$(SysDev)TGM8_Out1real</pv_name>
+        <y>290</y>
+        <width>80</width>
+        <precision>1</precision>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_115</name>
+      <text>Zone B Output1 Level</text>
+      <x>8</x>
+      <y>9</y>
+      <width>193</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser_1</name>
+    <file>BzoneOutputLevel.plt</file>
+    <x>1600</x>
+    <y>581</y>
+    <width>830</width>
+    <height>350</height>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+</display>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-11-13 11:10:14 by sxin-->
+<display version="2.0.0">
+  <name>MaximPS</name>
+  <macros>
+    <DEV>PS:</DEV>
+    <SYS>905-HC1-</SYS>
+  </macros>
+  <width>720</width>
+  <height>560</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>905 HCoating MAK     Power Supply Control</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>800</width>
+    <height>48</height>
+    <font use_class="true">
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>$(SYS)$(DEV)RemoteMode</pv_name>
+    <x>50</x>
+    <y>67</y>
+    <width>186</width>
+    <height>60</height>
+    <off_label>off</off_label>
+    <on_label>on</on_label>
+    <labels_from_pv>true</labels_from_pv>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>$(SYS)$(DEV)P_SP</pv_name>
+    <x>28</x>
+    <y>180</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Set Point</text>
+    <x>51</x>
+    <y>150</y>
+    <width>136</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(SYS)$(DEV)Power_RB</pv_name>
+    <x>326</x>
+    <y>180</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>ReadBack</text>
+    <x>231</x>
+    <y>150</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Power</text>
+    <x>221</x>
+    <y>195</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>Voltage</text>
+    <x>221</x>
+    <y>247</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(SYS)$(DEV)Volt_RB</pv_name>
+    <x>326</x>
+    <y>230</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>Current</text>
+    <x>221</x>
+    <y>297</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>$(SYS)$(DEV)Curr_RB</pv_name>
+    <x>326</x>
+    <y>280</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button 1</name>
+    <pv_name>$(SYS)$(DEV)EnableOut</pv_name>
+    <x>329</x>
+    <y>67</y>
+    <width>166</width>
+    <height>60</height>
+    <off_label>off</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>on</on_label>
+    <show_led>false</show_led>
+    <labels_from_pv>true</labels_from_pv>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Output:</text>
+    <x>343</x>
+    <y>35</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>Remote Mode</text>
+    <x>50</x>
+    <y>48</y>
+    <width>186</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>$(SYS)$(DEV)V_SP</pv_name>
+    <x>28</x>
+    <y>231</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>$(SYS)$(DEV)I_SP</pv_name>
+    <x>28</x>
+    <y>282</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>$(SYS)$(DEV)Delay_SP</pv_name>
+    <x>28</x>
+    <y>333</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>$(SYS)$(DEV)RampTime_SP</pv_name>
+    <x>28</x>
+    <y>384</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>Delay</text>
+    <x>221</x>
+    <y>349</y>
+    <width>93</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>Ramp Time</text>
+    <x>221</x>
+    <y>396</y>
+    <width>107</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_5</name>
+    <pv_name>$(SYS)$(DEV)ArcOffTime_SP</pv_name>
+    <x>28</x>
+    <y>435</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>$(SYS)$(DEV)ArcOffTime_RB</pv_name>
+    <x>326</x>
+    <y>435</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_10</name>
+    <text>Arc Off Time</text>
+    <x>221</x>
+    <y>454</y>
+    <width>107</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>$(SYS)$(DEV)RampTime_RB</pv_name>
+    <x>326</x>
+    <y>396</y>
+    <width>138</width>
+    <height>39</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>$(SYS)$(DEV)Delay_RB</pv_name>
+    <x>326</x>
+    <y>349</y>
+    <width>138</width>
+    <height>47</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>$(SYS)$(DEV)ArcRate_RB</pv_name>
+    <x>564</x>
+    <y>180</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>ArcRate</text>
+    <x>476</x>
+    <y>195</y>
+    <width>79</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>Arc Counts</text>
+    <x>475</x>
+    <y>262</y>
+    <width>79</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>$(SYS)$(DEV)ArcCt_RB</pv_name>
+    <x>564</x>
+    <y>247</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>$(SYS)$(DEV)HBTimeout_RB</pv_name>
+    <x>326</x>
+    <y>497</y>
+    <width>138</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_6</name>
+    <pv_name>$(SYS)$(DEV)HBTimeout_SP</pv_name>
+    <x>28</x>
+    <y>497</y>
+    <width>176</width>
+    <height>51</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <wrap_words>true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>Heart Beat Time Out</text>
+    <x>221</x>
+    <y>503</y>
+    <width>83</width>
+    <height>39</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>AsynRecord</description>
+        <file>../synapps/asynRecord.bob</file>
+        <macros>
+          <P>905-HC1-PS:</P>
+          <R>Asyn</R>
+        </macros>
+        <target>tab</target>
+      </action>
+    </actions>
+    <x>510</x>
+    <y>396</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_19</name>
+    <pv_name>905-HC1-PS:Asyn.CNCT</pv_name>
+    <x>510</x>
+    <y>446</y>
+    <width>100</width>
+    <height>42</height>
+    <off_label>Controller Disconnected</off_label>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label>Controller Connected</on_label>
+    <square>true</square>
+  </widget>
+</display>
