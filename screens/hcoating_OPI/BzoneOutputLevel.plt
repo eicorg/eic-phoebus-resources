@@ -25,94 +25,128 @@
   <axes>
     <axis>
       <visible>true</visible>
-      <name>Value 1</name>
-      <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <name>Controller Output Level [%]</name>
+      <use_axis_name>true</use_axis_name>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
       </color>
-      <min>-18.0</min>
-      <max>1.2000000000000002</max>
+      <min>-435.0</min>
+      <max>57.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 2</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
       </color>
-      <min>-15.600000000000001</min>
-      <max>3.6</max>
+      <min>-730.0</min>
+      <max>230.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 3</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
       </color>
-      <min>-13.200000000000001</min>
-      <max>6.0</max>
+      <min>-398.0</min>
+      <max>229.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 4</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
       </color>
-      <min>-10.8</min>
-      <max>8.4</max>
+      <min>-258.0</min>
+      <max>248.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 5</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
         <green>0</green>
         <blue>0</blue>
       </color>
-      <min>-8.4</min>
-      <max>10.8</max>
+      <min>-209.0</min>
+      <max>333.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 6</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
+      <right>false</right>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+      </color>
+      <min>-133.0</min>
+      <max>377.0</max>
+      <grid>false</grid>
+      <autoscale>false</autoscale>
+      <log_scale>false</log_scale>
+    </axis>
+    <axis>
+      <visible>false</visible>
+      <name>Value 7</name>
+      <use_axis_name>false</use_axis_name>
+      <use_trace_names>false</use_trace_names>
+      <right>false</right>
+      <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+      </color>
+      <min>-130.0</min>
+      <max>830.0</max>
+      <grid>false</grid>
+      <autoscale>false</autoscale>
+      <log_scale>false</log_scale>
+    </axis>
+    <axis>
+      <visible>false</visible>
+      <name>Value 8</name>
+      <use_axis_name>false</use_axis_name>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -120,41 +154,7 @@
         <blue>0</blue>
       </color>
       <min>-6.0</min>
-      <max>13.200000000000001</max>
-      <grid>false</grid>
-      <autoscale>false</autoscale>
-      <log_scale>false</log_scale>
-    </axis>
-    <axis>
-      <visible>true</visible>
-      <name>Value 7</name>
-      <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
-      <right>false</right>
-      <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-      </color>
-      <min>-3.6</min>
-      <max>15.600000000000001</max>
-      <grid>false</grid>
-      <autoscale>false</autoscale>
-      <log_scale>false</log_scale>
-    </axis>
-    <axis>
-      <visible>true</visible>
-      <name>Value 8</name>
-      <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
-      <right>false</right>
-      <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-      </color>
-      <min>-1.2000000000000002</min>
-      <max>18.0</max>
+      <max>493.0</max>
       <grid>false</grid>
       <autoscale>false</autoscale>
       <log_scale>false</log_scale>
@@ -164,7 +164,7 @@
   </annotations>
   <pvlist>
     <pv>
-      <display_name>905_TGM2:TGM1_Out1real</display_name>
+      <display_name>Controller Output Level [%]</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM1_Out1real</name>
       <axis>0</axis>
@@ -183,8 +183,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -192,7 +192,7 @@
       <display_name>905_TGM2:TGM2_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM2_Out1real</name>
-      <axis>1</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>255</green>
@@ -208,8 +208,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -217,7 +217,7 @@
       <display_name>905_TGM2:TGM3_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM3_Out1real</name>
-      <axis>2</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>0</green>
@@ -233,8 +233,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -242,7 +242,7 @@
       <display_name>905_TGM2:TGM4_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM4_Out1real</name>
-      <axis>3</axis>
+      <axis>0</axis>
       <color>
         <red>255</red>
         <green>127</green>
@@ -258,8 +258,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -267,7 +267,7 @@
       <display_name>905_TGM2:TGM5_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM5_Out1real</name>
-      <axis>4</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>255</green>
@@ -283,8 +283,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -292,7 +292,7 @@
       <display_name>905_TGM2:TGM6_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM6_Out1real</name>
-      <axis>5</axis>
+      <axis>0</axis>
       <color>
         <red>127</red>
         <green>0</green>
@@ -308,8 +308,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -317,7 +317,7 @@
       <display_name>905_TGM2:TGM7_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM7_Out1real</name>
-      <axis>6</axis>
+      <axis>0</axis>
       <color>
         <red>255</red>
         <green>255</green>
@@ -333,8 +333,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -342,7 +342,7 @@
       <display_name>905_TGM2:TGM8_Out1real</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM8_Out1real</name>
-      <axis>7</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>255</green>
@@ -358,8 +358,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>

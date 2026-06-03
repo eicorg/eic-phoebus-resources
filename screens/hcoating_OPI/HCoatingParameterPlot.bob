@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <height>1000</height>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser_1</name>
+    <file>Hcoating1_PS_RDBK.plt</file>
+    <x>10</x>
+    <width>650</width>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser_2</name>
+    <file>Hcoating1_Arc_count.plt</file>
+    <x>10</x>
+    <y>300</y>
+    <width>650</width>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser</name>
+    <file>Hcoating1_BaratronBV_RDBK.plt</file>
+    <x>10</x>
+    <y>600</y>
+    <width>650</width>
+    <height>400</height>
+    <show_toolbar>true</show_toolbar>
+  </widget>
+</display>

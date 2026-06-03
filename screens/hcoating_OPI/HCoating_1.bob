@@ -2331,7 +2331,7 @@
         <target>tab</target>
       </action>
     </actions>
-    <text>Teelevac Controller</text>
+    <text>Televac Controller</text>
     <x>1350</x>
     <y>68</y>
     <width>150</width>
@@ -3615,20 +3615,11 @@
     </font>
     <horizontal_alignment>1</horizontal_alignment>
   </widget>
-  <widget type="databrowser" version="2.0.0">
-    <name>Data Browser</name>
-    <file>Coatingplot.plt</file>
-    <x>1722</x>
-    <y>33</y>
-    <width>808</width>
-    <height>1142</height>
-    <show_toolbar>true</show_toolbar>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label_32</name>
     <text>Coating Process Data Plot</text>
-    <x>2030</x>
-    <y>10</y>
+    <x>1890</x>
+    <y>106</y>
     <width>330</width>
   </widget>
   <widget type="group" version="3.0.0">
@@ -4161,5 +4152,13 @@
     </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <file>HCoatingParameterPlot.bob</file>
+    <x>1712</x>
+    <y>132</y>
+    <width>668</width>
+    <height>1018</height>
   </widget>
 </display>

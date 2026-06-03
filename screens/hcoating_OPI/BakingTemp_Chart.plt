@@ -25,9 +25,9 @@
   <axes>
     <axis>
       <visible>true</visible>
-      <name>Value 1</name>
-      <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <name>Temperature [C]</name>
+      <use_axis_name>true</use_axis_name>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -41,10 +41,10 @@
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 2</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -58,10 +58,10 @@
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 3</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -75,10 +75,10 @@
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 4</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -92,10 +92,10 @@
       <log_scale>false</log_scale>
     </axis>
     <axis>
-      <visible>true</visible>
+      <visible>false</visible>
       <name>Value 5</name>
       <use_axis_name>false</use_axis_name>
-      <use_trace_names>true</use_trace_names>
+      <use_trace_names>false</use_trace_names>
       <right>false</right>
       <color>
         <red>0</red>
@@ -132,8 +132,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -141,7 +141,7 @@
       <display_name>Zone B8 Temp.</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM8_real</name>
-      <axis>1</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>0</green>
@@ -157,8 +157,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -166,7 +166,7 @@
       <display_name>Zone B4 Temp.</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM4_real</name>
-      <axis>2</axis>
+      <axis>0</axis>
       <color>
         <red>255</red>
         <green>127</green>
@@ -182,8 +182,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -191,7 +191,7 @@
       <display_name>Zone B1 Temp.</display_name>
       <visible>true</visible>
       <name>905_TGM2:TGM1_real</name>
-      <axis>3</axis>
+      <axis>0</axis>
       <color>
         <red>0</red>
         <green>255</green>
@@ -207,8 +207,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
@@ -216,7 +216,7 @@
       <display_name>Zone A7 Temp.</display_name>
       <visible>true</visible>
       <name>905_TGM1:TGM7_real</name>
-      <axis>4</axis>
+      <axis>0</axis>
       <color>
         <red>255</red>
         <green>0</green>
@@ -232,8 +232,8 @@
       <ring_size>5000</ring_size>
       <request>OPTIMIZED</request>
       <archive>
-        <name>pbraw://localhost:10068/retrieval</name>
-        <url>pbraw://localhost:10068/retrieval</url>
+        <name>EIC</name>
+        <url>pbraw://epics-services.eic.bnl.gov:10068/retrieval</url>
         <key>1</key>
       </archive>
     </pv>
